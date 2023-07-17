@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+.post{
+    background: white;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+ 
+}
+.post .post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+.post .post-header .left{
+    display:flex;
+    margin-left: 10px;
+    align-items: center;
+    
+}
+.post .post-header .right{
+    margin-right: 10px;
+}
+.header-title{
+    line-height:10px;
+}
+.post-header h1{
+    font-size: 20px;
+}
+.post .post-header h3{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo .fa-solid fa-globe{
+    width: 40px;
+    height: 40px;
+}
+.post img{
+    margin: 0;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+div .content{
+    width: 100%;
+    height: 200px;
+}
+div .icons {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    margin-top: 5px;
+}
+
+.icons .left{
+    margin-left: 10px;
+    height: 100%;
+}
+.icons .right{
+    margin-right: 10px;
+    height: 100%;
+}
+div .likes p{
+    margin: 0px 20px;
+}
+div .quote p{
+    margin: 10px 15px 0px 20px;
+}
